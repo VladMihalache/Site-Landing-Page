@@ -238,6 +238,9 @@ header{
             width: 27%;
             flex-basis: 27%;
             padding-right: 10px;
+            h4{
+                margin: 0;
+            }
         }
         .navigation{
             display: flex;
@@ -813,9 +816,8 @@ footer{
     .footLogo{
         flex: 1;
         display: flex;
-        justify-content: center;
         align-items: center;
-        padding:30px;
+        padding:50px;
         img{
             min-width: 88px;
             max-height: 28px;
@@ -826,6 +828,13 @@ footer{
         display: flex;
         justify-content: space-around;
         text-align: center;
+    }
+    .column--12{
+        align-items: center;
+        justify-content: center;
+        h6{
+            text-align: center;
+        }
     }
 }
 

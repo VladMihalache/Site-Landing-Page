@@ -310,6 +310,10 @@ header nav .logo {
   padding-right: 10px;
 }
 
+header nav .logo h4 {
+  margin: 0;
+}
+
 header nav .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1139,13 +1143,10 @@ footer .footLogo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px;
+  padding: 50px;
 }
 
 footer .footLogo img {
@@ -1162,6 +1163,19 @@ footer nav {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  text-align: center;
+}
+
+footer .column--12 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .column--12 h6 {
   text-align: center;
 }
 
